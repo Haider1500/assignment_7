@@ -1,6 +1,6 @@
 import readline from "node:readline";
 
-// Create a function calculateArea that takes the radius of a circle as an input and returns the area of the circle.
+//6 Create a function calculateArea that takes the radius of a circle as an input and returns the area of the circle.
 function calculateArea(radius: number) {
   const pi = 3.14;
   return (pi * radius) ^ 2;
@@ -46,7 +46,7 @@ rl.question(`What's your age?`, (age) => {
   rl.close();
 });
 
-// Write a function that takes an array of numbers and returns the count of positive numbers in the array.
+// 10 Write a function that takes an array of numbers and returns the count of positive numbers in the array.
 function positiveCount(arr: number[]): number {
   const count = arr.reduce((acc, curr) => {
     if (curr <= 0) {

@@ -1,4 +1,4 @@
-// Write a function that takes an array of words and returns a new array containing only the words that start with the letter 'a'.
+// 11 Write a function that takes an array of words and returns a new array containing only the words that start with the letter 'a'.
 function convertArr(words: string[]) {
   return words.filter((word: string) => word[0] === "a");
 }
@@ -120,7 +120,7 @@ console.log(findElementIndex([1, 2, 4, 6, 4, 89, 3], 4));
 
 // ------------------------------------------------------------------------------------------------------------------------------------------
 
-// Write a function to find and return the smallest number in an array of integers.
+// 20 Write a function to find and return the smallest number in an array of integers.
 function getSmallestNum(arr: number[]) {
   return Math.min(...arr);
 }
